@@ -6,7 +6,7 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
-    <title>Le Wagon - Middleman - About</title>
+    <title></title>
     <link href="stylesheets/application-aaa85806.css" rel="stylesheet" />
     <script src="javascripts/application-93de88c9.js"></script>
     <link href="images/favicon-f15af148.png" rel="icon" type="image/png" />
@@ -52,26 +52,30 @@
 </div>
 
     <div id="about">
-  <div class="about-content">
-    <h1>This template was built with <i class="fa fa-heart"></i> by</h1>
-    <ul class="list-inline">
+  <div class="about_content">
+    <h1>This template is built with <i class="fa fa-heart"></i> by</h1>
+    <ul class="list-inline text-center">
+       <!-- ["dmilon", "LouiseDarche"].each do |gh_username|  -->
         <li>
-<a href="https://kitt.lewagon.com/alumni/dmilon" target="_blank">            <img src="https://kitt.lewagon.com/placeholder/users/dmilon" class="img-circle" alt="Dmilon" />
-</a>          <h2>Damien Milon</h2>
-          <p>
-<a href="https://github.com/dmilon" target="_blank">              <i class="fa fa-github"></i> dmilon
-</a>          </p>
+          <img src="https://kitt.lewagon.com/placeholder/users/dmilon" class="img-circle" alt="Dmilon" />
+          <h3>Damien Milon</h3>
+          <a href="https://github.com/#{gh_username}""><i class="fa fa-github"></i>dmilon</p>
         </li>
+       <!-- ["dmilon", "LouiseDarche"].each do |gh_username|  -->
         <li>
-<a href="https://kitt.lewagon.com/alumni/LouiseDarche" target="_blank">            <img src="https://kitt.lewagon.com/placeholder/users/LouiseDarche" class="img-circle" alt="Louisedarche" />
-</a>          <h2>Louise Darche</h2>
-          <p>
-<a href="https://github.com/LouiseDarche" target="_blank">              <i class="fa fa-github"></i> LouiseDarche
-</a>          </p>
+          <img src="https://kitt.lewagon.com/placeholder/users/LouiseDarche" class="img-circle" alt="Louisedarche" />
+          <h3>Louise Darche</h3>
+          <a href="https://github.com/#{gh_username}""><i class="fa fa-github"></i>LouiseDarche</p>
         </li>
     </ul>
   </div>
 </div>
+
+
+
+<!-- ghname = user[:name]
+gh_username = user[:github_nickname]
+ -->
 
     <div class="footer">
   <div class="footer-links">
