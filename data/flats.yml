@@ -1,0 +1,24 @@
+dmilon:
+  name: "Damien's home"
+  description: "Spatious painter's atelier in Belleville"
+  city_name: "Paris, France"
+  city_slug: "paris"
+  wifi: false
+  rating: 5
+  welcome_drink: true
+LouiseDarche:
+  name: "Louise's home"
+  description: "Amazing view in North Montmartre"
+  city_name: "Paris, France"
+  city_slug: "paris"
+  wifi: true
+  rating: 3
+  welcome_drink: true
+alexxberr:
+  name: "Alexia's home"
+  description: "Great garden in sunny Saint Cloud"
+  city_name: "Saint-Cloud, France"
+  city_slug: "saint-cloud"
+  wifi: true
+  rating: 4
+  welcome_drink: false
